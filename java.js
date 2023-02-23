@@ -1,10 +1,10 @@
 var array=[]; //Crea el Arraylist
 function verificar_usuario(){
-    let user=document.getElementById("Usuario").value
+    let user=document.getElementById("Usuario").value //Recata los Valores de los Campos en el HTML
     let contra=document.getElementById("Contra").value
-    if(user=="Lucas" && contra==2000){
+    if(user=="Lucas" && contra==2000){ //Verifica que las Credenciales sean Iguales
         alert("Bienvenido")
-        location.href="calculadora.html"
+        location.href="calculadora.html" //Redirecciona al Archivo HTMl
     }else{
         alert("Algunos de los Campos es Erroneo")
     }
